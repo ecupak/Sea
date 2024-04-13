@@ -1,0 +1,15 @@
+Icon credits
+
+TITLE	Musical score icon
+BY	https://delapouite.com/
+AT	https://game-icons.net/1x1/delapouite/musical-score.html
+FROM	https://game-icons.net/
+LICENSE	https://creativecommons.org/licenses/by/3.0/
+
+
+TITLE	Double quaver icon
+BY	https://lorcblog.blogspot.com/
+AT	https://game-icons.net/1x1/lorc/double-quaver.html
+FROM	https://game-icons.net/
+LICENSE	https://creativecommons.org/licenses/by/3.0/
+

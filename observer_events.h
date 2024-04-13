@@ -1,0 +1,50 @@
+#pragma once
+
+
+enum EventType : unsigned int
+{
+	MUSIC = 0,
+	SFX,
+	ISLAND,
+	WALL,
+};
+
+
+enum MusicEvent : unsigned int
+{
+	ON_DAY_ISLAND = 0,
+	ON_DAY_OCEAN,
+	ON_NIGHT_ISLAND,
+	ON_NIGHT_OCEAN,
+	ON_ORB_HAS_CHARGE,
+	ON_ORB_LOST_CHARGE,
+	ON_SWITCH_TO_NIGHT,
+	ON_SWITCH_TO_DAY,
+};
+
+
+enum SFXEvent : unsigned int
+{
+	ON_ISLAND_MOVE,
+	ON_ISLAND_STOP,
+	ON_UPGRADE_STONE_ACTIVATION,
+	ON_CHARGE_STONE_ACTIVATION,
+	ON_ORB_REACHED_EMPTY,
+	ON_WATER_DEATH,
+	ON_PIER_EMBARK,
+	ON_SHIFT_WORLDS,
+	ON_PLAYER_JUMP,
+	ON_ISLAND_BRIGHTENED,
+};
+
+
+enum IslandEvent : unsigned int
+{
+	ON_LIGHT_RESTORED,
+};
+
+
+enum WallEvent : unsigned int
+{
+	ON_GATE_OPEN,
+};
